@@ -1,6 +1,6 @@
 ﻿namespace OCPI.Commands
 {
-    public enum CommandResultType
+    public enum CommandResult
     {
         ACCEPTED, CANCELLED_RESERVATION, EVSE_OCCUPIED, EVSE_INOPERATIVE, FAILED, NOT_SUPPORTED,
         REJECTED, TIMEOUT, UNKNOWN_RESERVATION

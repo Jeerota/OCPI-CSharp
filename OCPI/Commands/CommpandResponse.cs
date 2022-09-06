@@ -2,7 +2,7 @@
 
 namespace OCPI.Commands
 {
-    public class CommpandResponse
+    public class CommandResponse
     {
         [Required]
         public CommandResponseType Result { get; set; }
@@ -10,6 +10,6 @@ namespace OCPI.Commands
         public int Timeout { get; set; }
         public DisplayText? Message { get; set; }
 
-        public CommpandResponse() { }
+        public CommandResponse() { }
     }
 }
